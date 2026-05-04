@@ -1,0 +1,46 @@
+# Автоопределение для всех текстовых файлов
+* text=auto
+
+# Файлы Swift (iOS/macOS) — LF
+*.swift text eol=lf
+
+# Файлы Kotlin (Android) — LF
+*.kt text eol=lf
+*.kts text eol=lf
+
+# Файлы Java — LF
+*.java text eol=lf
+
+# Flutter файлы — LF
+*.dart text eol=lf
+
+# Файлы Gradle — LF
+*.gradle text eol=lf
+
+# XML и ресурсы Android — LF
+*.xml text eol=lf
+
+# Файлы блокировок — LF
+pubspec.lock text
+*.lock text
+
+# Shell скрипты — LF
+*.sh text eol=lf
+
+# Windows bat файлы — CRLF (если нужно)
+*.bat text eol=crlf
+
+# Бинарные файлы (не менять концы строк)
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.pdf binary
+*.zip binary
+*.jar binary
+*.aar binary
+*.so binary
+*.dylib binary
+*.framework binary
+*.a binary
